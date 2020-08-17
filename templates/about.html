@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+
+
+{% block body %}
+<h3 style="color: blue;">About Covid 19</h3>
+<b>Coronavirus (COVID-19) is an illness caused
+by a virus that can spread from person
+to person.<br>
+The virus that causes COVID-19 is a new
+coronavirus that has spread throughout
+the world.<br>
+COVID-19 symptoms can range from mild
+(or no symptoms) to severe illness.
+</b>
+<br>
+<br>
+
+<b>To protect Your Self you should </b>
+<ul>
+    <li>Wear A mask</li>
+    <li>Wash Your Hand</li>
+    <li>Avoid close contact</li>
+
+</ul>
+<br>
+<br>
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">For More information</a>
+<br>
+<a href="{{ url_for('index')}}">Back</a>
+
+{% endblock %}
